@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #8d86c9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3em;
+  border-radius: 15px;
+  background: #8d86c9;
+  box-shadow: 10px 10px 20px #7872ab, -10px -10px 20px #a29ae7;
+  gap: 1em;
+}
+.cont {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.cont .tela {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40pt;
+  color: #f7ece1;
+  height: 100px;
+  width: 250px;
+}
+.cont .tela input {
+  background-color: #6e699e;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 30pt;
+  color: #f7ece1;
+  width: 150px;
+}
+.cont .buttons button {
+  color: #f7ece1;
+  background-color: #242038da;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 6px;
+  transition: 0.6s;
+}
+.ativo {
+  transform: scale(1.1);
+  background-color: #0c0c10;
+}
+#calc {
+  cursor: pointer;
+  background-color: #242038;
+  color: #f7ece1;
+  font-size: 15pt;
+  margin: 1em;
+  border: none;
+  padding: 15px;
+  border-radius: 16px;
+  font-weight: 700;
+}
